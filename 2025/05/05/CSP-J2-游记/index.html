@@ -253,7 +253,7 @@
   window.pjax ? loadMathjax() : window.addEventListener('load', loadMathjax)
 })()</script><script>(() => {
   const isShuoshuo = GLOBAL_CONFIG_SITE.pageType === 'shuoshuo'
-  const option = null
+  const option = {"mathjax":true}
 
   const getCount = () => {
     const countELement = document.getElementById('twikoo-count')
